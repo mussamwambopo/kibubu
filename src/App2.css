@@ -1,0 +1,39 @@
+.app {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+  }
+  
+  .side-nav {
+    width: 80px;
+    background-color: #1a1a1a;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .balance-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .balance-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .main-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  

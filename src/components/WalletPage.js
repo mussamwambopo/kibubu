@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css'; // Custom CSS file for styling
+import './index.css';
 
 function WalletPage() {
   return (
-    <div className="wallet-container">
+    <div className="wallet-container bg-red-600 h-screen">
       <aside className="sidebar">
         <div className="sidebar-icon">
           <i className="icon-wallet">📁</i>
@@ -36,6 +37,9 @@ function WalletPage() {
         </div>
         <div className="fab">+</div>
       </div>
+
+    <div className='bg-green-500 h-64 w-64 mx-auto'></div>
+
     </div>
   );
 }
