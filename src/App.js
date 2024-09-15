@@ -7,6 +7,7 @@ function WalletPage() {
       <aside className="sidebar">
         <div className="sidebar-icon">
           <i className="icon-wallet">📁</i>
+  
         </div>
         <div className="sidebar-icon">
           <i className="icon-expand">⤢</i>
@@ -21,8 +22,8 @@ function WalletPage() {
       <div className="main-content">
         <header className="header">
           <div className="profile-icon">👤</div>
-          <div className="balance-display">0 SATS</div>
-          <div className="user-avatar">M</div>
+          <div className="balance-display">0 </div>
+          <div className="user-avatar">K</div>
         </header>
         <div className="tab-bar">
           <button className="tab active">Just Me</button>
@@ -31,8 +32,8 @@ function WalletPage() {
         </div>
         <div className="actions">
           <button className="action-btn highlighted">Secure your funds!</button>
-          <button className="action-btn">Receive your first sats</button>
-          <button className="action-btn">Find your friends on nostr</button>
+          <button className="action-btn">Receive your first Kibubu Token</button>
+          <button className="action-btn">Find your friends on KIbubuchain</button>
         </div>
         <div className="fab">+</div>
       </div>
